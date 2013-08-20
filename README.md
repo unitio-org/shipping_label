@@ -1,4 +1,4 @@
-# Shipping::Label
+# ShippingLabel
 
 Shipping label is used to modify links in Rails mailers to include a set of
 query parameters. This is useful when adding Google Analytics or other tracking
