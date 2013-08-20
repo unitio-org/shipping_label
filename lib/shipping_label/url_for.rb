@@ -3,8 +3,7 @@ require 'addressable/uri'
 module ShippingLabel
   module UrlFor
     def url_for(original_url)
-      url = super(original_url)
-      url_with_shipping_label_params(url)
+      url_with_shipping_label_params(super)
     end
 
     private
